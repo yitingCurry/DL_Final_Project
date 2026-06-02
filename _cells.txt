@@ -1,0 +1,12 @@
+﻿python : Traceback (most recent call last):
+位於 C:\Temp\ps-script-158d5b97-392f-4454-85d4-9cadcf219eb7.ps1:81 字元:1
++ python -c "
++ ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 7, in <module>
+    print(src[:400].replace(chr(10),'\\n'))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp950' codec can't encode character '\u2265' in position 356: illegal multibyte sequence
+--- 0 markdown 779 ---
